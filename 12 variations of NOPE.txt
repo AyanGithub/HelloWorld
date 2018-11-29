@@ -16,4 +16,3 @@ wait, .text or .txt?
 
 All 12 caps variations of "nope.txt"
 UPDATE: added n0pe
-UPDATE2: just a test!
