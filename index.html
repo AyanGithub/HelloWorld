@@ -1,10 +1,18 @@
 <body style="background-color:#4ddbff;">
-<h1 style="color:red"> REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEET</h1>
-<button onclick="myFunction()">Gr8 m8</button>
-<button onclick="myFunction()">11/10</button>
+<h2 id="demo">You are neutral about this website. :|</h2>
+<h1 style="color:red"> REEEEEEEEEEEEEEEEEEEEEEEEETTTT</h1>
+<button onclick="myFunction()">Gr8 m8, 11/10!!!</button>
+<button onclick="myFunction2()">Nope. Hate it.</button>
+<button onclick="neutral()">Eh. Neutral.</button>
 <script>
 function myFunction(){
-	document.write(Date());
+	document.getElementById("demo").innerHTML = "YOU LOVE THIS WEBSITE, THANKS!!! :) :) :)";
+}
+function myFunction2(){
+	document.getElementById("demo").innerHTML = "YOU HATE THIS WEBSITE. :(";
+}
+function neutral(){
+	document.getElementById("demo").innerHTML="You are neutral about this website. :|"
 }
 </script>
 
