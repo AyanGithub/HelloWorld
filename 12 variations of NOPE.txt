@@ -10,5 +10,9 @@ nOpE.txt
 NOPe.txt
 nopE.txt
 nOPE.txt
+n0pe.text
+wait, .text or .txt?
+
 
 All 12 caps variations of "nope.txt"
+UPDATE: added n0pe
