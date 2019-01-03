@@ -1,6 +1,19 @@
-<canvas id="canvas" height="600" width="600" style="border:lpx solid;"></canvas>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+<canvas id="canvas" height="600" width="600" style="border:lpx solid"></canvas>
 
 <script>
 let c=document.getElementById("canvas");
+let ctx=c.getContent("2d"); //graphics context
+
+ctx.fillRect(100, 150, 200, 300);
+
+ctx.strokeRect(400, 200, 100, 150);
+
+ctx.beginPath();
+
+ctx.moveTo(200, 100);
+
+ctx.closePath();
 
 </script>
