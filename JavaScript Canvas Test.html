@@ -1,6 +1,6 @@
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
-<canvas id="canvas" height="600" width="600" style="border:lpx solid"></canvas>
+<canvas id="canvas" height="600" width="600"></canvas>
 
 <script>
 let c=document.getElementById("canvas");
@@ -13,7 +13,21 @@ ctx.strokeRect(400, 200, 100, 150);
 ctx.beginPath();
 
 ctx.moveTo(200, 100);
+ctx.lineTo(300,100);
+ctx.lineto(250, 50);
+ctx.lineTo(200, 100);
 
+ctx.lineWidth = 4;
+ctx.strokeStyle="red";
+ctx.fillStyle="#FFAAAA";
+ctx.stroke();
+ctx.fill();
+
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(450,275,40,0,2*Math.PI);
+ctx.stroke();
 ctx.closePath();
 
 </script>
