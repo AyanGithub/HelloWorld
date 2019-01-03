@@ -1,0 +1,42 @@
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+<canvas id="canvas" height="600" width="600" style="border:1px solid"></canvas>
+
+<script>
+let c=document.getElementById("canvas");
+let ctx=c.getContext("2d"); //graphics context
+
+//ctx.fillRect(100, 150, 200, 300);
+
+//ctx.strokeRect(400, 200, 100, 150);
+
+ctx.beginPath();
+
+ctx.lineWidth = 4;
+ctx.strokeStyle="red";
+ctx.fillStyle="#FFAAAA";
+ctx.stroke();
+ctx.fill();
+
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(450, 275, 100, 0, 2*Math.PI);
+ctx.stroke();
+ctx.closePath();
+ctx.beginPath();
+ctx.arc(225, 275, 100, 0, 2*Math.PI);
+ctx.stroke();
+ctx.closePath();
+ctx.beginPath();
+ctx.arc(337.5,420, 100,25,5*Math.PI);
+ctx.stroke();
+ctx.closePath();
+
+ctx.font ="80px Courier";
+ctx.fillText("Hello", 80, 515);
+ctx.lineWidth=1;
+//ctx.font=""
+ctx.strokeText("World", 80, 580);
+
+</script>
